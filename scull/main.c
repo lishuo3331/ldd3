@@ -666,7 +666,7 @@ int scull_init_module(void)
 	return 0; /* succeed */
 
   fail:
-	scull_cleanup_module();
+scull_cleanup_module();
 	return result;
 }
 
